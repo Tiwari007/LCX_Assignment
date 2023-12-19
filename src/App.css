@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.counterText {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.count {
+  font-size: 3rem;
+}
+
+.rerenderCount {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
